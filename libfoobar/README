@@ -1,0 +1,9 @@
+http://www.tldp.org/HOWTO/Program-Library-HOWTO/shared-libraries.html
+
+http://www.yolinux.com/TUTORIALS/LibraryArchives-StaticAndDynamic.html
+
+http://www.cprogramming.com/tutorial/shared-libraries-linux-gcc.html
+
+nm -D '/home/jsears/tmp/libfoobar/Debug/libfoobar.1.so'
+
+https://docs.python.org/2/distutils/setupscript.html

@@ -1,0 +1,8 @@
+cmake -DPYTHON_EXECUTABLE=$HOME/bin/Python-2.7.12/bin/python -Dgtest_build_samples=ON -DCMAKE_INSTALL_PREFIX=$HOME/bin/googletest ..
+
+cmake -DPYTHON_EXECUTABLE=$HOME/bin/Python-2.7.12/bin/python -Dgtest_build_samples=ON -DCMAKE_INSTALL_PREFIX=$HOME/bin/googlemock ..
+
+http://www.ibm.com/developerworks/aix/library/au-googletestingframework.html
+
+--gtest_output="xml:report.xml"
+

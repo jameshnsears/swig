@@ -1,0 +1,11 @@
+swig -c++ -python -o foobar_wrapper.cpp Foo.i
+
+build, everything for the .so - normal process
+
+cp libfoobar.so ~/tmp/_mymodule.so
+cp mymodule.py ~/tmp
+
+$HOME/bin/Python-2.7.12/bin/python
+import mymodule
+f = mymodule.Foo()
+print f.Bar(1, 2)

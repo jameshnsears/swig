@@ -1,0 +1,9 @@
+export LD_LIBRARY_PATH=.:$LD_LIBRARY_PATH
+ldconfig -l libfoobar.1.so
+./foobar
+
+# ldconfig -v
+
+ldd foobar
+
+ltrace -S -tt ./foobar
