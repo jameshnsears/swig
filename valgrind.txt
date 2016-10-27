@@ -3,3 +3,6 @@ sudo apt-get install eclipse-cdt-valgrind
 http://www.eclipse.org/linuxtools/
 
 http://www.eclipse.org/linuxtools/downloads.php
+
+gcov .so results
+= double click on .gcda file on Debug/src
