@@ -38,19 +38,19 @@ endif
 # Add inputs and outputs from these tool invocations to the build variables 
 
 # All Target
-all: foobar_test
+all: foobar_gtest
 
 # Tool invocations
-foobar_test: $(OBJS) $(USER_OBJS)
+foobar_gtest: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -L"/home/jsears/GIT_REPOS/swig/libfoobar/Debug" -ftest-coverage -fprofile-arcs -o "foobar_test" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"/home/jsears/GIT_REPOS/swig/libfoobar/Debug" -ftest-coverage -fprofile-arcs -o "foobar_gtest" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
 # Other Targets
 clean:
-	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(C_UPPER_DEPS)$(CXX_DEPS)$(OBJS)$(CPP_DEPS)$(C_DEPS) foobar_test
+	-$(RM) $(CC_DEPS)$(C++_DEPS)$(EXECUTABLES)$(C_UPPER_DEPS)$(CXX_DEPS)$(OBJS)$(CPP_DEPS)$(C_DEPS) foobar_gtest
 	-@echo ' '
 
 .PHONY: all clean dependents
