@@ -8,26 +8,23 @@
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.NON_STOP" value="false"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.REVERSE" value="false"/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.REVERSE_MODE" value="UseSoftTrace"/>
-<listAttribute key="org.eclipse.cdt.dsf.gdb.SOLIB_PATH">
-<listEntry value="/media/truecrypt1/jsears/cpp/libfoobar/Debug/src"/>
-</listAttribute>
+<listAttribute key="org.eclipse.cdt.dsf.gdb.SOLIB_PATH"/>
 <stringAttribute key="org.eclipse.cdt.dsf.gdb.TRACEPOINT_MODE" value="TP_NORMAL_ONLY"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.UPDATE_THREADLIST_ON_SUSPEND" value="false"/>
 <booleanAttribute key="org.eclipse.cdt.dsf.gdb.internal.ui.launching.LocalApplicationCDebuggerTab.DEFAULTS_SET" value="true"/>
 <intAttribute key="org.eclipse.cdt.launch.ATTR_BUILD_BEFORE_LAUNCH_ATTR" value="2"/>
-<stringAttribute key="org.eclipse.cdt.launch.COREFILE_PATH" value=""/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_ID" value="gdb"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_REGISTER_GROUPS" value=""/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_START_MODE" value="run"/>
 <booleanAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN" value="true"/>
 <stringAttribute key="org.eclipse.cdt.launch.DEBUGGER_STOP_AT_MAIN_SYMBOL" value="main"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/foobar_test"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="foobar_test"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROGRAM_NAME" value="Debug/foobar"/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_ATTR" value="foobar"/>
 <booleanAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_AUTO_ATTR" value="false"/>
-<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value=""/>
+<stringAttribute key="org.eclipse.cdt.launch.PROJECT_BUILD_CONFIG_ID_ATTR" value="cdt.managedbuild.config.gnu.exe.debug.670641114"/>
 <booleanAttribute key="org.eclipse.cdt.launch.use_terminal" value="true"/>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_PATHS">
-<listEntry value="/foobar_test"/>
+<listEntry value="/foobar"/>
 </listAttribute>
 <listAttribute key="org.eclipse.debug.core.MAPPED_RESOURCE_TYPES">
 <listEntry value="4"/>
@@ -36,7 +33,7 @@
 <mapEntry key="LD_LIBRARY_PATH" value="/home/jsears/GIT_REPOS/cc/libfoobar/Debug"/>
 </mapAttribute>
 <listAttribute key="org.eclipse.debug.ui.favoriteGroups">
-<listEntry value="org.eclipse.debug.ui.launchGroup.debug"/>
+<listEntry value="org.eclipse.debug.ui.launchGroup.run"/>
 </listAttribute>
 <stringAttribute key="org.eclipse.dsf.launch.MEMORY_BLOCKS" value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; standalone=&quot;no&quot;?&gt;&#10;&lt;memoryBlockExpressionList context=&quot;reserved-for-future-use&quot;/&gt;&#10;"/>
 <booleanAttribute key="org.eclipse.linuxtools.internal.perf.attr.DefaultEvent" value="true"/>
@@ -45,7 +42,6 @@
 <booleanAttribute key="org.eclipse.linuxtools.internal.perf.attr.Kernel.SourceLineNumbers" value="false"/>
 <booleanAttribute key="org.eclipse.linuxtools.internal.perf.attr.ModuleSymbols" value="false"/>
 <booleanAttribute key="org.eclipse.linuxtools.internal.perf.attr.MultipleEvents" value="false"/>
-<booleanAttribute key="org.eclipse.linuxtools.internal.perf.attr.Multiplex" value="false"/>
 <booleanAttribute key="org.eclipse.linuxtools.internal.perf.attr.Record.Realtime" value="false"/>
 <intAttribute key="org.eclipse.linuxtools.internal.perf.attr.Record.Realtime.Priority" value="1"/>
 <booleanAttribute key="org.eclipse.linuxtools.internal.perf.attr.Record.Verbose" value="false"/>

@@ -34,9 +34,7 @@ protected:
 };
 
 TEST_F(FooTest, DoesXyz) {
-	string a = "y";
-	string b = "z";
 	Foo f;
-	EXPECT_EQ(0, f.Bar(a, b));
+	EXPECT_EQ(3, f.Bar(1, 2));
 }
 

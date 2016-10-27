@@ -44,7 +44,7 @@ all: foobar
 foobar: $(OBJS) $(USER_OBJS)
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C++ Linker'
-	g++ -L"/home/jsears/GIT_REPOS/cc/libfoobar/Debug" -o "foobar" $(OBJS) $(USER_OBJS) $(LIBS)
+	g++ -L"/home/jsears/GIT_REPOS/swig/libfoobar/Debug" -ftest-coverage -fprofile-arcs -o "foobar" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 

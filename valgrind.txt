@@ -1,0 +1,5 @@
+sudo apt-get install eclipse-cdt-valgrind
+
+http://www.eclipse.org/linuxtools/
+
+http://www.eclipse.org/linuxtools/downloads.php
