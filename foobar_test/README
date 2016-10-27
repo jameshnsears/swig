@@ -7,4 +7,3 @@ NOTE: the lib / include folders come from googlemock
 http://www.ibm.com/developerworks/aix/library/au-googletestingframework.html
 
 --gtest_output="xml:report.xml"
-
