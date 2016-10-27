@@ -3,6 +3,7 @@
 	<name>py</name>
 	<comment></comment>
 	<projects>
+		<project>libfoobar</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

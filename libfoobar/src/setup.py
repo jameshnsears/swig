@@ -1,16 +1,18 @@
 """
-rm -rf $HOME/bin/Python-2.7.12-ve01
-mkdir -p $HOME/bin/Python-2.7.12-ve01
-cd $HOME/bin/Python-2.7.12-ve01
-$HOME/bin/Python-2.7.12/bin/virtualenv .
+export PY_HOME=$HOME/bin/Python-2.7.12-ve01
 
-cd '/home/jsears/GIT_REPOS/cpp/libfoobar/src'
+rm -rf $PY_HOME
+mkdir -p $PY_HOME
+cd $PY_HOME
+$PY_HOME/bin/virtualenv .
 
-python setup.py build_ext
+cd 'libfoobar/src'
 
-$HOME/bin/Python-2.7.12-ve01/bin/python setup.py install 
+$PY_HOME/bin/python setup.py build_ext
 
-$HOME/bin/Python-2.7.12-ve01/bin/python
+$PY_HOME/bin/python setup.py install 
+
+$PY_HOME/bin/python
 import mymodule
 f = mymodule.Foo()
 print f.Bar(1, 2)

@@ -2,14 +2,16 @@
 #include <iostream>
 #include <string>
 
+using namespace std;
+
 Foo::Foo() {
 }
 
 Foo::~Foo() {
 }
 
-int Foo::Bar(std::string a, std::string b) {
-	return 1;
+string Foo::Bar(string a, string b) {
+	return a + b;
 }
 
 int Foo::Bar(int a, int b) {

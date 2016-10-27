@@ -1,9 +1,11 @@
 #include <string>
 
+using namespace std;
+
 class Foo {
 public:
 	Foo();
 	virtual ~Foo();
-	int Bar(std::string, std::string);
+	string Bar(string, string);
 	int Bar(int, int);
 };
