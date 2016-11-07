@@ -8,3 +8,6 @@ http://www.boost.org/doc/libs/1_62_0/more/getting_started/unix-variants.html
 on 16.04 see: /usr/lib/x86_64-linux-gnu/libboost_*
 
 http://www.boost.org/doc/libs/1_62_0/libs/test/doc/html/index.html
+
+http://www.boost.org/doc/libs/master/libs/test/doc/html/boost_test/section_faq.html
+= includes correct precompiled header lib to use

@@ -1,0 +1,4 @@
+#include "foobar_btest.h"
+#ifndef FOOBAR_BTEST_PCH
+#include <boost/test/included/unit_test.hpp>
+#endif
