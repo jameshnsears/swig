@@ -2,3 +2,7 @@
 #ifndef FOOBAR_BTEST_PCH
 #include <boost/test/included/unit_test.hpp>
 #endif
+
+NOTES:
+. pch is not required by foobar_btest - despite what you might read on the web!
+. use -H on g++ to confirm pch inclusion / recognition

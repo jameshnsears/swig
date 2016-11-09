@@ -1,9 +1,12 @@
-#define BOOST_TEST_DYN_LINK
 #define BOOST_TEST_MODULE foobar_test
-
+#define BOOST_TEST_DYN_LINK
 #include <boost/test/unit_test.hpp>
 
+#include "Foo.h"
+#include <string>
+
 using namespace boost::unit_test;
+using namespace std;
 
 struct MyFixture {
 	MyFixture() {
@@ -19,14 +22,20 @@ struct MyFixture {
 
 BOOST_AUTO_TEST_CASE( test_case1 ) {
 	BOOST_TEST_MESSAGE("running test_case1");
-	BOOST_TEST(1 == 0);
 	MyFixture f;
-	// do something involving f.i
+
+    Foo * foo = new Foo();
+    string a = "y";
+    string b = "z";
+
+    string r = string(foo->Bar(a, b));
+	BOOST_TEST(r.compare("yz") == 0);
 }
 
 BOOST_AUTO_TEST_CASE( test_case2 ) {
 	BOOST_TEST_MESSAGE("running test_case2");
-	BOOST_TEST(0 == 0);
 	MyFixture f;
-	// do something involving f.i
+
+	Foo * foo = new Foo();
+	BOOST_TEST(3 == foo->Bar(1, 2));
 }
